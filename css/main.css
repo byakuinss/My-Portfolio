@@ -13,7 +13,7 @@ html, body {
 
 /* header */ 
 .header {
-	background:url(../img/header.JPG) no-repeat center center;
+	background:url(../img/header.jpg) no-repeat center center;
 	background-size: cover;
 	padding-top: 40px;
 	text-align: center;
@@ -21,7 +21,7 @@ html, body {
 }
 
 .inner {
-	background:url(../img/My-photo-s.JPG) no-repeat center center;
+	background:url(../img/My-photo-s.jpg) no-repeat center center;
 	background-size: cover;
 	height:100%;
 	border-radius: 50%;
@@ -84,8 +84,8 @@ html, body {
 }
 
 .main img {
-	width:350px;
-	height:250px;
+	width:300px;
+	height:auto;
 	margin:5px;
 	padding:10px;
 	border: 1px solid #e0e0e0;
@@ -103,4 +103,104 @@ html, body {
 	color:#FFF;
 	text-shadow: 1px 1px #000000;
 	font-size: 14px;
+}
+
+.remodal {
+	text-align: left;
+}
+
+.remodal .list {
+	list-style-type: none;
+	margin:0;
+	padding:5px;
+}
+
+.remodal .list a {
+	padding:5px;
+	color: #7f00ff;
+	text-decoration: none;
+}
+
+.remodal .list li a:hover {
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.project-link {
+	background-color: #FFFFFF;
+	color: #7f00ff;
+	border: 1px solid #7f00ff;
+}
+
+.project-link:hover {
+	background-color: #7f00ff;
+	color: #FFFFFF;
+}
+
+.content {
+	padding-top:40px;
+	padding-bottom: 20px;
+	text-align: left;	
+}
+
+.ui-tabs {
+	position: relative;/* position: relative prevents IE scroll bug (element with position: relative inside container with overflow: auto appear as "fixed") */
+	padding: .2em;
+}
+.ui-tabs .ui-tabs-nav {
+	margin: 0;
+	padding: .2em .2em 0;
+}
+
+.tabs-list {
+	background-color: #EEEEEE;
+	height:40px;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+}
+
+.ui-tabs .ui-tabs-nav li {
+	list-style: none;
+	float: left;
+	position: relative;
+	top: 0;
+	margin: 1px .2em 0 0;
+	border-bottom-width: 0;
+	padding: 0;
+	white-space: nowrap;
+	text-decoration: none;
+	background-color: #FFFFFF;
+	color:#CFCFCF;
+}
+.ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+	float: left;
+	padding: .5em 1em;
+	text-decoration: none;
+	border: 1px solid #dddddd;
+	border-bottom: 0px;
+	border-radius: 3px;
+	color: inherit;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-active {
+	margin-bottom: -1px;
+	padding-bottom: 1px;
+	color:#4f4a4a;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor,
+.ui-tabs .ui-tabs-nav li.ui-state-disabled .ui-tabs-anchor,
+.ui-tabs .ui-tabs-nav li.ui-tabs-loading .ui-tabs-anchor {
+	cursor: text;
+}
+.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor {
+	cursor: pointer;
+}
+.ui-tabs .ui-tabs-panel {
+	display: block;
+	border-width: 0;
+	padding: 1em 1.4em;
+	background: none;
+	border: 1px solid #dddddd;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	height:200px;
 }

@@ -5,8 +5,15 @@
 		<title>Grace's Portfolio</title>
 		<link type="text/css" rel="stylesheet" href="css/main.css"/>
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<link rel="stylesheet" href="lib/Remodal-1.1.0/dist/remodal.css">
+		<link rel="stylesheet" href="lib/Remodal-1.1.0/dist/remodal-default-theme.css">
+		<script src="lib/jquery-3.0.0.js"></script>
+		<script src="lib/jquery-ui-1.11.4/jquery-ui.js"></script>
+		<script src="lib/jquery-ui-1.11.4/jquery-ui.min.js"></script>
 	</head>
 	<body>
+		<script src="lib/Remodal-1.1.0/dist/remodal.min.js"></script>
+		<script src="js/main.js"></script>
 		<div class="header">
 			<div class="photo">
 				<div class="inner">
@@ -17,7 +24,7 @@
 			<p>Keep learning, keep moving.</p>
 			<div class="nav">
 				<ul>
-					<li><a href="pages/About.html">About</a></li>
+					<li><a href="About.html">About</a></li>
 					<li><a href="#" class="active">Projects</a></li>
 					
 				</ul>
@@ -27,7 +34,45 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-4">
-						<a href="#"><!--img src="img/temp-1.jpg"/--></a>
+						<a href="#modal"><img src="img/collection-1-s.jpg"/></a>
+						<div class="remodal-bg">
+						</div>
+						<div class="remodal" data-remodal-id="modal">
+							<button data-remodal-action="close" class="remodal-close"></button>
+							<div id="tabs">
+								<ul class="tabs-list">
+									<li><a href="#Purpose">Purpose</a></li>
+									<li><a href="#Skills">Skills</a></li>
+									<li><a href="#References">References</a></li>
+								</ul>
+								<div id="Purpose">
+									<div class="content">
+										<p>Present self-introduction and my projects. Also, for fun!</p>
+										<a target="_blank" href="#"><button class="project-link">Take a look!</button></a>
+									</div>
+								</div>
+								<div id="Skills">
+									<div class="content">
+										<ul class="list">
+											<li>HTML+CSS</li>
+											<li>javaScript</li>
+											<li>jQuery</li>
+										</ul>
+									</div>
+								</div>
+								<div id="References" class="tabs">
+									<div class="content">
+										<ul class="list">
+											<li><a target="_blank" href="https://github.com/VodkaBears/Remodal">Remoals</a></li>
+											<li><a target="_blank" href="http://www.w3schools.com/">w3schools</a></li>
+										</ul>
+									</div>
+								</div>
+								<br>
+							</div>
+							<button data-remodal-action="cancel" class="remodal-cancel">Back</button>
+							<button data-remodal-action="confirm" class="remodal-confirm">OK</button>
+						</div>
 					</div>
 					<div class="col-md-4">
 						<a href="#"><!--img src="img/temp-2.jpg"/--></a>

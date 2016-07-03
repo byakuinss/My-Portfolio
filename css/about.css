@@ -20,7 +20,7 @@
 
 .col-md-6 h3 span {
 	font-size:14px;
-	background-color: #BCE023;
+	font-weight: bold;
 	padding:3px 8px;
 	border-radius: 5%;
 	letter-spacing: -1px;
@@ -103,35 +103,30 @@
 .skill .col-sm-6 .progress {
 	height:2px;
 	margin-bottom:0;
+	width:0px;
 }
 
 .skill .java {
-	margin-right:90px;
 	background-color: #E92A25;
 }
 
 .skill .ASPNET {
-	margin-right:120px;
 	background-color: #ff00fa;
 }
 
 .skill .HTML_CSS {
-	margin-right:150px;
 	background-color: #ff5000;
 }
 
 .skill .VBA {
-	margin-right:110px;
 	background-color: #0400ff;
 }
 
 .skill .SQL {
-	margin-right:70px;
 	background-color: #027a02;	
 }
 
 .skill .Perl {
-	margin-right:130px;
 	background-color: #00d8ff;		
 }
 
@@ -141,29 +136,53 @@
 }
 
 .skill .test {
-	margin-right:120px;
 	background-color: #966806;		
 }
 
 .skill .web_dev {
-	margin-right:150px;
 	background-color: #7e16c9;		
 }
 
 .skill .trouble {
-	margin-right:70px;
 	background-color: #ff1111;		
+}
+
+.check:hover {
+	font-weight:bold;
+	color: #E92A25;
 }
 
 .content {
 	border: 1px solid #e0e0e0;
+	padding-top: 20px;
+	padding-bottom: 40px;
+	background-color: #FFEBBA;
 }
 
 .content p {
-	padding: 20px;
 	font-style: normal;
 	font-size:16px;
+	padding-left:20px;
+	padding-right:20px;
 	letter-spacing: -1px;
+}
+
+.read-more {
+	letter-spacing: -1px;
+	font-size:14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	border: 1px solid #E92A25;
+	padding:4px;
+	margin-left:20px;
+	margin-bottom:20px;
+	background-color: inherit;
+	color: #E92A25;
+}
+
+.read-more:hover {
+	background-color: #E92A25;
+	color: #FFFFFF;
 }
 
 .icon {
@@ -179,4 +198,39 @@
 	height:50px;
 	border:0px;
 	box-shadow: 0px 0px #FFF;
+}
+
+.ui-accordion .ui-accordion-header {
+	border: 1px solid #e0e0e0;
+	display: block;
+	cursor: pointer;
+	position: relative;
+	margin: 0 0 0 0;
+	min-height: 0; /* support: IE7 */
+	font-size: 100%;
+	padding:10px;
+	background-color: #f2f2f2;
+	border-radius: 5px;
+}
+
+.ui-accordion-header:hover {
+	border: 1px solid #4554B1;
+}
+
+.ui-accordion .ui-accordion-icons .ui-accordion-icons {
+	padding-left: 2.2em;
+}
+.ui-accordion .ui-accordion-header .ui-accordion-header-icon {
+	position: absolute;
+	left: .5em;
+	top: 50%;
+	margin-top: -8px;
+}
+.ui-accordion .ui-accordion-content {
+	padding: 1em 2.2em;
+	border-top: 0;
+	overflow: auto;
+}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+    color: #4554B1;
 }
