@@ -11,6 +11,8 @@ $(document).ready(function(){
 		$('.java').animate({width: '100px'});
 		$('.ASPNET').animate({width: '40px'});
 		$('.HTML_CSS').animate({width: '70px'});
+		$('.javascript').animate({width: '50px'});
+		$('.jQuery').animate({width: '50px'});
 		$('.VBA').animate({width: '80px'});
 		$('.SQL').animate({width: '120px'});
 		$('.Perl').animate({width: '60px'});

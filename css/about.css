@@ -106,46 +106,20 @@
 	width:0px;
 }
 
-.skill .java {
-	background-color: #E92A25;
-}
-
-.skill .ASPNET {
-	background-color: #ff00fa;
-}
-
-.skill .HTML_CSS {
-	background-color: #ff5000;
-}
-
-.skill .VBA {
-	background-color: #0400ff;
-}
-
-.skill .SQL {
-	background-color: #027a02;	
-}
-
-.skill .Perl {
-	background-color: #00d8ff;		
-}
-
-.skill .admin {
-	margin-right:50px;
-	background-color: #11a377;	
-}
-
-.skill .test {
-	background-color: #966806;		
-}
-
-.skill .web_dev {
-	background-color: #7e16c9;		
-}
-
-.skill .trouble {
-	background-color: #ff1111;		
-}
+/* Programming Skill Progress */
+.skill .java {background-color: #E92A25;}
+.skill .ASPNET {background-color: #ff00fa;}
+.skill .HTML_CSS {background-color: #ff5000;}
+.skill .javascript {background-color: #b421c4;}
+.skill .jQuery {background-color: #1daf92;}
+.skill .VBA {background-color: #0400ff;}
+.skill .SQL {background-color: #027a02;}
+.skill .Perl {background-color: #00d8ff;}
+/* Professional Skill Progress */
+.skill .admin {background-color: #11a377;}
+.skill .test {background-color: #966806;}
+.skill .web_dev {background-color: #7e16c9;}
+.skill .trouble {background-color: #ff1111;}
 
 .check:hover {
 	font-weight:bold;
